@@ -1,0 +1,12 @@
+h1{
+    /* External css  */
+    /* this is property for changing the color of text */
+
+    /* changing font color  */
+    color: red;
+    /* changing font style  */
+    font-style: italic;
+    text-align: center;
+    border: 5px dotted tomato;
+    padding: 10px;
+}

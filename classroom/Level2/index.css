@@ -1,0 +1,30 @@
+div{
+    height: 100px;
+    background-color: pink;
+    width: 100px;
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: brown; */
+    border: 2px solid brown;
+    text-align: right;
+    border-radius: 10px;
+    /* padding-left: 25px;
+    padding-right: 25px; */
+    /* padding: 12px; */
+    padding: 10px 25px 10px 25px;
+    /* margin: 50px; */
+    /* margin-top: 50px; */
+    /* margin: 50px 25px 25px 50px; */
+    margin: 50px 25px;
+}
+h1{
+    height: 200px;
+    width: 150px;
+    background-color: aquamarine;
+    /* border-width: 3px;
+    border-style: dashed;
+    border-color: blue; */
+    border: 3px dashed blue;
+    text-align: center;
+    border-radius: 10px;
+}

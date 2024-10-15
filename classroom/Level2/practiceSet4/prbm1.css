@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#Navbar{
+    height: 40px;   
+    background-color: #0f1111;
+    border: 5px solid #f08804;
+}
+#amazon{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aquamarine;
+    font-size: 25px;
+}
+button{
+    background-color: #f08804;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+    color: white;
+}
+input{
+    color: cadetblue;
+}
+
+.div{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: inline-block;
+
+}
+#footer{
+    background-color: #0f1111;
+    text-align: center;
+    color: white;
+}
+#content{
+    height: 560px;
+}

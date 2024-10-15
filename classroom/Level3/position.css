@@ -1,0 +1,49 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    border: 2px solid black;
+    display: inline-block;
+}
+#box1{
+    /* if position is static top left right bottom will not work in it */
+    position: static;
+    top: 50px;
+}
+#box2{
+    /* it position is relative All will work in it  */
+    position: relative;
+    top: 20px;
+    left: 10px;
+    /* here i am apply z-index: 1 so if the box2 overlap with other box 
+    it will come top by using z-index */
+    z-index: 1;
+}
+
+#box3{
+    /* if position is absolute 4th box will come under 3rd box and 
+    if you add top:20px it will take its parent top(body) and adjust from there 
+    in the same way left right and bottom also */
+    position: absolute;
+    top: 20px;
+}
+#box4{
+    /* if position is fixed it will be in same place and if you add right: 10px 
+    then it will takes its browser view and box goes to right corner with 10px;
+    in the same way legy top and bottom if we scroll the page the box4 will be fixed not scrolls */
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+}
+
+/* if we use position: sticky and the box is down while scrolling
+ it will come up to top of the screen and it will fix at top and wont go up  */
+ #box5{
+    /* if position is fixed it will be in same place and if you add right: 10px 
+    then it will takes its browser view and box goes to right corner with 10px;
+    in the same way legy top and bottom if we scroll the page the box4 will be fixed not scrolls */
+    position: sticky;
+    right: 500px;
+    bottom: 20px;
+    top: 20px;
+}

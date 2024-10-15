@@ -1,0 +1,52 @@
+/* percentage */
+/* #box1{
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+}
+#box2{
+    height: 50px;
+    width: 30%;
+    background-color: green;
+    margin-left: 10%;
+} */
+    /* em  */
+/* #box1{
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    font-size: 10px;
+}
+#box2{
+    height: 50px;
+    width: 30%;
+    background-color: green;
+    margin-left: 10%; */
+    /* 2em means two tyms of its parent font-size  */
+    /* font-size: 2em; */
+    /* here width is given 5em so it will compire with font-size of itself(not parent) * 5 (5em) equals 100px  */
+    /* width: 5em; */
+/* } */
+
+/* rem  */
+#box1{
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    font-size: 10px;
+}
+#box2{
+    height: 50px;
+    width: 30%;
+    background-color: green;
+    margin-left: 10%;
+    /* 2em means two tyms of its parent font-size  */
+    font-size: 2em;
+    /* rem = root element of font size  */
+    width: 5rem;
+
+    /* vh is 1% of hight of browser vh(view port hight)
+    height: 1vh;
+    hw is 1% of width of browser vw(view port width)
+    width: 1vw; */
+}

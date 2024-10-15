@@ -1,0 +1,26 @@
+/* here we got example for block and inline
+inline :- takes only space required by element .(no margin/padding)
+block :- Takes full space available in width
+div{
+    background-color: pink;
+    display: inline;
+}
+button{
+    background-color: aquamarine;
+    display: block;
+} */
+
+/* inline-block :- Similar to inline but we can set margin and padding */
+/* non :- To remove element from document flow */
+div{
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+#none{
+    /* display: none; */
+    /* visibility: hidden; */
+    background-color: rgba(0, 255, 0, 0.8);
+}

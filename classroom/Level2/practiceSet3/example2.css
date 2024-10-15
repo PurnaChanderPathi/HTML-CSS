@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#Navbar{
+    height: 60px;
+    background-color: #0f1111;
+    border: 10px solid white;
+}
+#amazon{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aquamarine;
+    font-size: 25px;
+}
+button{
+    background-color: #f08804;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}
+input{
+    color: cadetblue;
+}

@@ -1,0 +1,35 @@
+/* Univeral Selector  */
+/* *{
+    color: brown;
+} */
+
+/* element Selector  */
+/* h1{
+    color: aquamarine;
+} */
+
+/* class Selector  */
+.heading{
+    color: blue;
+}
+/* id selector  */
+#head{
+    color: blueviolet;
+}
+
+
+
+/* external style sheet  */
+/* h1{
+    color: rgb(66, 146, 146);
+}
+p{
+    color: rgb(161, 59, 59);
+}
+button{
+    color: rgb(64, 148, 64);
+    background-color: rgb(95, 128, 47);
+}
+body{
+    background-color: black;
+} */
